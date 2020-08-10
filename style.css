@@ -326,17 +326,13 @@
     width: 220px;
     padding: 10px;
     box-sizing: border-box;
-}
-
-#find-out-title-text {
-
 
     font-size: 16px;
     font-weight: 600;
     color: #1e4488;
-
-
 }
+
+
 
 
 
@@ -360,7 +356,8 @@
 }
 
 .find-out-details-text {
-    font-size: 26px;
+    font-size: 25px;
+    padding: 15px;
     font-weight: 600;
     transition-duration: 1.5s;
     
@@ -368,10 +365,6 @@
 
 .find-out-details-text:hover {
     font-weight: 400;
-}
-
-.empty-space {
-    width: 100px;
 }
 
 
@@ -383,7 +376,7 @@
 
     justify-content: space-around;
 
-    min-width: fit-content;
+
 
 }
 

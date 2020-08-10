@@ -18,7 +18,10 @@
                     "Grade 6 - 10",
                     "Age 3(EC) - Grade 5"];
 
-    var allLines = {firstLine: lineOne, secondLine: lineTwo, thirdLine: lineThree};
+    var titleLine = ["Karibu IST",
+                    "Welcome to IST",
+                    "Bienvenue chez IST",
+                    "Bienvenida a IST"];
                     
 
     var slideIndex = 1;
@@ -85,14 +88,17 @@
     function animateDetails () {
 
       var linesArray = document.getElementsByClassName("find-out-details-text");
+      var karibuTitle = document.getElementById("find-out-title");
+      var randIndex = Math.floor((Math.random() * titleLine.length) + 0);
 
       linesArray[0].innerHTML = lineOne[slideIndexZero];
       linesArray[1].innerHTML = lineTwo[slideIndexZero];
       linesArray[2].innerHTML = lineThree[slideIndexZero];
+      karibuTitle.innerHTML = titleLine[randIndex]; 
   
       
   
-      if (slideIndexZero == 2) {
+      if(slideIndexZero == 2) {
         slideIndexZero=0;
       }else{
         slideIndexZero++;
