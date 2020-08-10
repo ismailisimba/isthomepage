@@ -572,7 +572,6 @@
 
   
     width: 100%;
-    height: auto;
 
     background-color: yellow;
     box-sizing: border-box;
@@ -636,7 +635,7 @@
 
 
 
-#education-div, #learning-div-top, #become-twiga-top{
+#education-div, #learning-div-top, #become-twiga-top, #explore-div{
 
     display: flex;
     flex-flow: column;
@@ -654,7 +653,7 @@
 
 }
 
-#education-div-title, #learning-div-title, #become-twiga-title {
+#education-div-title, #learning-div-title, #become-twiga-title, #explore-div-title {
 
     font-size: 30px;
     color: #febd3d;
@@ -768,13 +767,39 @@
 }
 
 
-.edu-items .main-vision, #learning-div-bottom .learning-vision {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  
+.become-twiga-buttons {
 
-    font-size: x-large;
-    font-weight: 700;
+    width: 20%;
+    min-height: 50px;
+    min-width: 250px;
+    margin: 2% 1% ;
+    padding: 1% 2%;
+  
+ 
+
+    line-height: normal;
+    box-sizing: border-box;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border-radius: 5px;
+
+    background-color: #76bc43;
+    color: white;
+}
+
+#explore-div-details {
+
+    font-size: 20px;
+    color: #323e48;
+    font-weight: 300;
+    line-height: 30px;
+
+    padding-bottom: 25px;
+
+    box-sizing: border-box;
+
 }
 
 
