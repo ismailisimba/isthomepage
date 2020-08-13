@@ -5,6 +5,18 @@
                     "https://www.istafrica.com/uploaded/photos/new_homepage_20/main4.png",
                     "https://www.istafrica.com/uploaded/photos/new_homepage_20/main5.png"];
 
+    var imagesCaption = { "0": ["Kids1","button-right-top"],
+                          "1": ["Kids2","button-left-top"],
+                          "2": ["Kids3","button-right-top"],
+                          "3": ["Kids4","button-right-bottom"],
+                          "4": ["Kids5","button-right-bottom"]};
+                          
+
+                  /*never use left bottom here!!*/ 
+
+
+    var previousBox = document.getElementById("button-right-top");
+
 
     var lineOne = ["International Baccalaureate",
                     "Middle Years",
@@ -119,14 +131,22 @@
 
   theButton: function () {
 
+    previousBox.style.visibility = "hidden";
+
     var randIndex = Math.floor((Math.random() * imagesBig.length) + 0);
+    var randIndexString = randIndex.toString();
+    var captionPositionName = imagesCaption[randIndexString][1];
+    var captionWords = imagesCaption [randIndexString][0];
+    var captionBox = document.getElementById(captionPositionName);
+  
     
     
     if(buttonIndex){
 
           document.getElementById("footer-container").style.marginLeft = "-100%";
-          setTimeout(alert("he"),1300);
+          setTimeout(alert(captionWords),1300);
           document.getElementById("footer-right").style.backgroundImage = `url(${imagesBig[randIndex]})`;
+          
           buttonIndex = false;
         } else{
           document.getElementById("footer-container").style.marginLeft = "0";
@@ -136,7 +156,13 @@
      
           buttonIndex = true;
 
-     }   
+     }
+     
+     
+     captionBox.style.visibility = "visible";
+     captionBox.innerHTML = captionWords;
+     previousBox = captionBox;
+     
 
             /*var test100 = document.getElementById("top-back-container").style.marginLeft;
       document.getElementById("find-out-title-text").innerHTML = randIndex;*/

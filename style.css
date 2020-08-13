@@ -887,7 +887,7 @@
     opacity: 0.85;
     font-weight: 500;
     font-size: normal;
-    display: none;
+    visibility: hidden;
 
 }
 
@@ -907,7 +907,7 @@
     opacity: 0.85;
     font-weight: 500;
     font-size: normal;
-    display: none;
+    visibility: hidden;
 
 }
 
@@ -917,6 +917,6 @@
     opacity: 0.85;
     font-weight: 500;
     font-size: normal;
-    display: none;
+    visibility: hidden;
 
 }
