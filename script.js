@@ -114,6 +114,28 @@
   
 
 
+  },
+
+  theButton: function () {
+
+    var randIndex = Math.floor((Math.random() * imagesBig.length) + 0);
+    
+    
+    if(slideIndex == 1){
+
+      document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`;
+      slideIndex++;
+    }else {
+      document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`;
+      
+      /*var test100 = document.getElementById("top-back-container").style.marginLeft;
+      document.getElementById("find-out-title-text").innerHTML = randIndex;*/
+      
+      slideIndex--;
+     }
+
+
+
   }
 
 
@@ -122,7 +144,9 @@
 
 
 
+let bottom = document.getElementById("footer-container");
 
+bottom.addEventListener("click",funcObj.theButton, false);
 funcObj.animateBackground();
 funcObj.animateFindOutDetails();
 
