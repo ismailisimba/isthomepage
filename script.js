@@ -25,6 +25,7 @@
                     
 
     var slideIndex = 1;
+    var buttonIndex = 1;
     var slideIndexZero = 0;
 
 
@@ -43,7 +44,7 @@
             document.getElementById("top-back-container").style.marginLeft = "0";
           }
 
-          setTimeout(animateContainer, 35000);
+          setTimeout(animateContainer, 7000);
 
          }
 
@@ -69,7 +70,7 @@
             slideIndex = 1;
           }
 
-          setTimeout(animateMe, 35000);
+          setTimeout(animateMe, 7000);
 
 
 
@@ -121,18 +122,24 @@
     var randIndex = Math.floor((Math.random() * imagesBig.length) + 0);
     
     
-    if(slideIndex == 1){
+    if(buttonIndex == 1){
 
-      document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`;
-      slideIndex++;
-    }else {
-      document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`;
-      
-      /*var test100 = document.getElementById("top-back-container").style.marginLeft;
+          document.getElementById("footer-container").style.marginLeft = "-100%";
+          setTimeout(document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`,1000);
+          buttonIndex++;
+        } else{
+          document.getElementById("footer-container").style.marginLeft = "0";
+          setTimeout(document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`,1000);
+     
+          buttonIndex=1;
+
+     }   
+
+            /*var test100 = document.getElementById("top-back-container").style.marginLeft;
       document.getElementById("find-out-title-text").innerHTML = randIndex;*/
-      
-      slideIndex--;
-     }
+    
+    
+
 
 
 

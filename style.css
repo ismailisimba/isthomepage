@@ -314,16 +314,16 @@
   
     width: 200%;
 
-    -webkit-transition-duration: 35s;
-    -moz-transition-duration: 35s;
-    -o-transition-duration: 35s;
-    transition-duration: 35s;
+    -webkit-transition-duration: 7s;
+    -moz-transition-duration: 7s;
+    -o-transition-duration: 7s;
+    transition-duration: 7s;
 
 
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    -o-transition-timing-function: linear;
-    transition-timing-function: linear;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
     
 }
 
@@ -823,16 +823,16 @@
   
     width: 200%;
 
-    -webkit-transition-duration: 35s;
-    -moz-transition-duration: 35s;
-    -o-transition-duration: 35s;
-    transition-duration: 35s;
+    -webkit-transition-duration: 1.2s;
+    -moz-transition-duration: 1.2s;
+    -o-transition-duration: 1.2s;
+    transition-duration: 1.2s;
 
 
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    -o-transition-timing-function: linear;
-    transition-timing-function: linear;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
     
 }
 
