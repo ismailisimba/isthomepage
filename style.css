@@ -772,6 +772,9 @@
 
 #highlighted-story-button {
 
+    position: relative;
+    top: 200px;
+
     font-size: xx-large;
     color: #1e4488;
     background-color: #76bc43;
@@ -782,7 +785,9 @@
     max-width: 300px;
     align-self: center;
 
-    padding: 1% 2%;
+    padding: 15px 10px;
+
+    border-radius: 5px;
 
     box-sizing: border-box;
 
@@ -826,6 +831,7 @@
     min-width: 250px;
 
     margin-top: 15px;
+    margin-right: 5px;
     padding: 10px 5px;
     
   
