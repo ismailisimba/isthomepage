@@ -16,6 +16,7 @@
 
 
     var previousBox = document.getElementById("button-right-top");
+    var previousTitle = "Karibu IST";
 
 
     var lineOne = ["International Baccalaureate",
@@ -34,6 +35,8 @@
                     "Welcome to IST",
                     "Bienvenue chez IST",
                     "Bienvenida a IST"];
+
+    var titleLineCounter = titleLine.length-1;
                     
 
     var slideIndex = 1;
@@ -101,13 +104,10 @@
     function animateDetails () {
 
       var linesArray = document.getElementsByClassName("find-out-details-text");
-      var karibuTitle = document.getElementById("find-out-title");
-      var randIndex = Math.floor((Math.random() * titleLine.length) + 0);
 
       linesArray[0].innerHTML = lineOne[slideIndexZero];
       linesArray[1].innerHTML = lineTwo[slideIndexZero];
-      linesArray[2].innerHTML = lineThree[slideIndexZero];
-      karibuTitle.innerHTML = titleLine[randIndex]; 
+      linesArray[2].innerHTML = lineThree[slideIndexZero]; 
   
       
   
@@ -118,11 +118,35 @@
       }
       
 
-      setTimeout(animateDetails,4000);
+      setTimeout(animateDetails,2300);
+
+    }
+
+    function animateKaribu () {
+
+      var karibuTitle = document.getElementById("find-out-title");
+      if (titleLineCounter > 0){
+        karibuTitle.innerHTML = titleLine[titleLineCounter];
+        titleLineCounter--;
+
+      }else {
+
+        karibuTitle.innerHTML = titleLine[titleLineCounter];
+        titleLineCounter = titleLine.length-1;
+
+      };
+
+  
+
+      
+      
+
+      setTimeout(animateKaribu,1200);
 
     }
 
     animateDetails();
+    animateKaribu();
 
   
 
@@ -172,6 +196,28 @@
 
 
 
+  },
+
+  reverseHover: function () {
+    document.getElementById("find-out").style.top ="-350px";
+    document.getElementById("shadow-mask").style.opacity = "0.65";
+
+  
+  },
+  resetHover: function () {
+
+     let top = document.getElementById("find-out").style.top ;
+
+     if (top == "-350px") {
+       document.getElementById("find-out").style.top = "-90px";
+       document.getElementById("shadow-mask").style.opacity = "0";
+     } else {
+      document.getElementById("find-out").style.top = "-350px";
+      document.getElementById("shadow-mask").style.opacity = "0.65";
+      
+     }
+
+  
   }
 
 
@@ -184,6 +230,9 @@ let bottom = document.getElementById("footer-container");
 let topBack = document.getElementById("top-back-container");
 
 bottom.addEventListener("click",funcObj.theButton, false);
+
+topBack.addEventListener("mouseover",funcObj.reverseHover, false);
+topBack.addEventListener("click",funcObj.resetHover, false);
 
 funcObj.animateBackground();
 funcObj.animateFindOutDetails();
