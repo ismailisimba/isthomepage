@@ -869,12 +869,13 @@
     position: absolute;
 
     width: 25%;
-    padding: 20px;
+    min-width: 120px;
+    
     height: fit-content;
     border-radius: 3px;
     background-color: #76bc43;
 
-    color:#1e4488;
+   
    
     
 
@@ -884,10 +885,31 @@
 #button-right-bottom {
     bottom: 50px;
     right: 50px;
-    opacity: 0.85;
-    font-weight: 500;
-    font-size: normal;
+    opacity: 0.95;
+    font-weight: 600;
+    font-size: large;
     visibility: hidden;
+    padding: 10px;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #323e48;
+    border-width: 3px;
+    color:#323e48;
+
+
+
+
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+
+
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
 
 }
 
@@ -897,6 +919,11 @@
     left: 50px;
     font-weight: 700;
     font-size: large;
+    padding: 20px;
+    color:#1e4488;
+
+
+    
 
 }
 
@@ -904,19 +931,60 @@
 #button-right-top {
     top: 50px;
     right: 50px;
-    opacity: 0.85;
-    font-weight: 500;
-    font-size: normal;
+    opacity: 0.95;
+    font-weight: 600;
+    font-size: large;
     visibility: hidden;
+    padding: 10px;
+    color:#323e48;
+
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #323e48;
+    border-width: 3px;
+
+
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+
+
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 
 }
 
 #button-left-top {
     top: 50px;
     left: 50px;
-    opacity: 0.85;
-    font-weight: 500;
-    font-size: normal;
+    opacity: 0.95;
+    font-weight: 600;
+    font-size: large;
     visibility: hidden;
+    padding: 10px;
+    color:#323e48;
+
+
+   
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #323e48;
+    border-width: 3px;
+    
+
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+
+
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 
 }

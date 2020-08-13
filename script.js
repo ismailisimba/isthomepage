@@ -5,11 +5,11 @@
                     "https://www.istafrica.com/uploaded/photos/new_homepage_20/main4.png",
                     "https://www.istafrica.com/uploaded/photos/new_homepage_20/main5.png"];
 
-    var imagesCaption = { "0": ["Kids1","button-right-top"],
-                          "1": ["Kids2","button-left-top"],
-                          "2": ["Kids3","button-right-top"],
-                          "3": ["Kids4","button-right-bottom"],
-                          "4": ["Kids5","button-right-bottom"]};
+    var imagesCaption = { "0": ["International Day, circa 2019!","button-right-bottom"],
+                          "1": ["A random student peeking curiously at the camera!","button-left-top"],
+                          "2": ["Dr. Jane Goodall meets with fans during one of her visits","button-right-top"],
+                          "3": ["Grade 10 Students Fair 2019","button-right-bottom"],
+                          "4": ["Tree Planting 2019","button-right-bottom"]};
                           
 
                   /*never use left bottom here!!*/ 
@@ -144,14 +144,14 @@
     if(buttonIndex){
 
           document.getElementById("footer-container").style.marginLeft = "-100%";
-          setTimeout(alert(captionWords),1300);
+          setTimeout(function () {},1300);
           document.getElementById("footer-right").style.backgroundImage = `url(${imagesBig[randIndex]})`;
           
           buttonIndex = false;
         } else{
           document.getElementById("footer-container").style.marginLeft = "0";
           
-          setTimeout(alert("she"),1300);
+          setTimeout(function () {},1300);
           document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`;
      
           buttonIndex = true;
@@ -181,8 +181,10 @@
 
 
 let bottom = document.getElementById("footer-container");
+let topBack = document.getElementById("top-back-container");
 
 bottom.addEventListener("click",funcObj.theButton, false);
+
 funcObj.animateBackground();
 funcObj.animateFindOutDetails();
 
