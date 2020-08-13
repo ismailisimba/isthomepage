@@ -863,3 +863,60 @@
     box-sizing: border-box;
 
 }
+
+
+.footer-buttons {
+    position: absolute;
+
+    width: 25%;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 3px;
+    background-color: #76bc43;
+
+    color:#1e4488;
+   
+    
+
+}
+
+
+#button-right-bottom {
+    bottom: 50px;
+    right: 50px;
+    opacity: 0.85;
+    font-weight: 500;
+    font-size: normal;
+    display: none;
+
+}
+
+
+#button-left-bottom {
+    bottom: 50px;
+    left: 50px;
+    font-weight: 700;
+    font-size: large;
+
+}
+
+
+#button-right-top {
+    top: 50px;
+    right: 50px;
+    opacity: 0.85;
+    font-weight: 500;
+    font-size: normal;
+    display: none;
+
+}
+
+#button-left-top {
+    top: 50px;
+    left: 50px;
+    opacity: 0.85;
+    font-weight: 500;
+    font-size: normal;
+    display: none;
+
+}
