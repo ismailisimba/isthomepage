@@ -291,7 +291,7 @@
 
     width: 100%;
     height: auto;
-    min-height: 1000px;
+    min-height: 900px;
 
     box-sizing: border-box;
     text-align: center;
@@ -335,7 +335,6 @@
     background-size: cover;
 
     min-height: 600px;
-    min-width: 600px;
     width: 50%;
     padding-top: 50px;
     margin: 0;
@@ -351,7 +350,6 @@
     background-size: cover;
 
     min-height: 600px;
-    min-width: 600px;
     width: 50%;
     padding-top: 50px;
 
@@ -823,10 +821,10 @@
   
     width: 200%;
 
-    -webkit-transition-duration: 1.2s;
-    -moz-transition-duration: 1.2s;
-    -o-transition-duration: 1.2s;
-    transition-duration: 1.2s;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
 
 
     -webkit-transition-timing-function: ease-in-out;
@@ -844,8 +842,7 @@
     background-size: cover;
 
     min-height: 600px;
-    min-width: 600px;
-    width: 50%;
+    width: 100%;
     padding-top: 50px;
     margin: 0;
 
@@ -860,8 +857,7 @@
     background-size: cover;
 
     min-height: 600px;
-    min-width: 600px;
-    width: 50%;
+    width: 100%;
     padding-top: 50px;
 
     box-sizing: border-box;

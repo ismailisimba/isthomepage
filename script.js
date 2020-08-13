@@ -25,7 +25,7 @@
                     
 
     var slideIndex = 1;
-    var buttonIndex = 1;
+    var buttonIndex = true;
     var slideIndexZero = 0;
 
 
@@ -122,16 +122,19 @@
     var randIndex = Math.floor((Math.random() * imagesBig.length) + 0);
     
     
-    if(buttonIndex == 1){
+    if(buttonIndex){
 
           document.getElementById("footer-container").style.marginLeft = "-100%";
-          setTimeout(document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`,1000);
-          buttonIndex++;
+          setTimeout(alert("he"),1300);
+          document.getElementById("footer-right").style.backgroundImage = `url(${imagesBig[randIndex]})`;
+          buttonIndex = false;
         } else{
           document.getElementById("footer-container").style.marginLeft = "0";
-          setTimeout(document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`,1000);
+          
+          setTimeout(alert("she"),1300);
+          document.getElementById("footer-left").style.backgroundImage = `url(${imagesBig[randIndex]})`;
      
-          buttonIndex=1;
+          buttonIndex = true;
 
      }   
 
