@@ -1,9 +1,9 @@
 
-    var imagesBig = ["https://www.istafrica.com/uploaded/photos/new_homepage_20/main1.png",
-                      "https://www.istafrica.com/uploaded/photos/new_homepage_20/main2.png",
-                    "https://www.istafrica.com/uploaded/photos/new_homepage_20/main3.png",
-                    "https://www.istafrica.com/uploaded/photos/new_homepage_20/main4.png",
-                    "https://www.istafrica.com/uploaded/photos/new_homepage_20/main5.png"];
+    var imagesBig = ["https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
+                      "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
+                    "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
+                    "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
+                    "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none"];
 
     var imagesCaption = { "0": ["International Day, circa 2019!","button-right-bottom"],
                           "1": ["A random student peeking curiously at the camera!","button-left-top"],
