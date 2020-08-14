@@ -3,7 +3,7 @@
                       "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
                     "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
                     "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none",
-                    "https://kh8lig.am.files.1drv.com/y4mvMjldyIYQ72eI-xOxl3TDVtelh9eWmWT6sexgkRZkvegBMeYsHWMXOoTHXdhdDOwfJpjVujq7xjJNa49JL4DtVXMTsly3lb3MI1SLJBakdQcvjAoNF1JAY4jEOE_tEnxvsHqal-VuwSERen-G20BYFWl-y5kMBp0Obgxay9xTwaAFi4KFRzCgBNJJgl7FHEIGwvt_FdmiK3UTHpjnkpehg?width=3000&height=1957&cropmode=none"];
+                    "https://ntjuqq.am.files.1drv.com/y4mKxN5IjPsf5M0fPqBxjEJhUfw6y1Puns04x59RMJ7mTDEI6UUs5gzu59-22dgYzJ0-Zo2t69sqNmIMHasAS_rcObiWucD2Y1IJNtqF1nOPhAX5Z0MbJ7auk1TKqGFknaKEml8dP98iF8H3f2uvOXLCt8FiEmbNMaQtj6AcA8rnOGns4znzmVuaXAxhHhc0mkf_hhsQQbLxMP1_jaLI8B75Q"];
 
     var imagesCaption = { "0": ["International Day, circa 2019!","button-right-bottom"],
                           "1": ["A random student peeking curiously at the camera!","button-left-top"],
