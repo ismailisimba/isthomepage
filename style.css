@@ -495,9 +495,9 @@
 }
 
 .learn-items img {
-    width: 30%;
-    min-width: 300px;
-    
+
+    width: 250px;
+    height: 100px;    
 }
 
 .edu-items .main-vision, #learning-div-bottom .learning-vision {
@@ -1027,3 +1027,50 @@
 
 
 
+
+
+
+#challenge-image {
+    background-image: url("https://xjo3la.am.files.1drv.com/y4m2-mO03ZMokEa-Q4iBCpBfOi2z4SoI1Q6_zGJkOPAQlCOrbkPK7I3tsiI1Bnziby22FLaJIvBUTz_oYDwXnWDeR6CLxCGkPvIyhjq3xE2bDyZB10nWee7mYWOe7fdi-vTDoUMbZehkelFvREtiFLFu_1ih6Kclc9sk3yE0LEvysSh2fEWDNYVImDAzQGkDNVuy4a5fNZwGezo8dZ2LFy5dw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#support-image {
+    background-image: url("https://ndj0qq.am.files.1drv.com/y4m3U0wVLv_uEg0Sn3D0ANYjWXdTJZRmWjRrm1gUbpOqYtBKZ0s0DQy9Zl6CtNyVffxIZh3xuxdBufs40vgCH_OEEB8Sz9SAehzAPP0GQCg8DVlRMyzNd7VVpUB-a021gEuvQUw6UA2oI6Sld7ycm5AAI6OjcSFi0fps07VQ9j4B9ZwoaMZTtjHPuQEc1q3JUbnicCEH7MEsCMPWsbm8-9L2w");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#inspire-image {
+    background-image: url("https://acrmnw.am.files.1drv.com/y4mScA6QgWauRH380-JrYrNCdCdRgAf_z0s7mXEq2Ocpr1ks-Wd2inQroaorb6bfMmUWCjZRKeNgzmrqu-YBW_FlxcPFVyVbE_IWFKod8C-H0FKvZimn0AUALXjh2gS3D1d7I3cQoSfPIiIk2bIiObO070b0R25Wd_YrxxxXJfKsG2Con5Vp1QzcBhMZdtC3mbQeAJAaa6dB9WBelX-Oxly8g");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#pyp-logo {
+    background-image: url("https://0ifdhw.am.files.1drv.com/y4mfLtXS-ybSUugIT-yGaRVaCUP7VK2SaniQsjXHGwvXJvQDcZVTlob9As6Y91MdztUXErVXeSDwKS5buoLgHQeZR6EKIQOrz5CbpGgRfiV0YzTXp_Ebq9AY8nyVbn8WLD0i50wP0gxxJXsye_MX0X2soGFc_FVNYT8WloXIPIFTcak1BPkGZL9fa4-bha5gup0FdlfubR8oaHHVX1E3IyZEA");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#myp-logo {
+    background-image: url("https://n62b5a.am.files.1drv.com/y4mI-bGX4zMsQVMpJli7bic9PsDUAFfndVFtaq5cloptn9WKKZ3aW1xPdmgdPqXPnHJ1vdfhKnueo8-NbbHWOd6o-863W8OWBeMrYhSJQGl2J92ULkhlAVWZeDVN1PT4aKR7Wxw26bLinRqNoDKEK6xkpMgAPlVplzDmqSa_zk27QWOw5nIKjPRQVH3oU37J2-En4v_DypexwSzr-AgDLvHlw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#dp-logo {
+    background-image: url("https://lfgufa.am.files.1drv.com/y4mlQJWwHnGAV5wves-M3z5B00A9vKGyE9kvRUGgAgSiyC3lPUyIhRfVLwpS0jiV3GG2IbFEqhmcPqh2N824C13H6Q-Wx8mmVSqR3F0Qcpm8A-R1YVwi2yKpd_1Hl2hToULo8cv7qLyEombVFLYGXUC3pZ7xOLNkJDJpQO-ioN6bwmBoi1uPTfdzdLNIn5Nyp0CPW3-Bt_hp0KC-52dbp10Yw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
