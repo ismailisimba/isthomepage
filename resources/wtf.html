@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<style>
+
+    .trymoving {
+
+        display: block;
+        position: absolute;
+        top: 10px;
+        
+
+        transition: all;
+        transition-duration: 5s;
+
+        
+        width: 100%;
+        height: 600px;
+        z-index: 50;
+
+    }
+
+    #movemEe1 {
+
+      
+        left: 100px;
+        background-color: aqua;
+
+     
+       }
+
+
+    #movemEe2 {
+
+            
+        left: 300px;
+        background-color: black;
+
+
+        }
+
+
+    #movemEe3 {
+
+                    
+        left: 500px;
+        background-color: orange;
+
+
+        }
+
+
+    #movemEe4 {
+
+                    
+        left: 700px;
+        background-color: red;
+        color: white;
+        visibility: hidden;
+
+
+        }
+
+        #container {
+            background-color: blue;
+            position: absolute;
+            left: -200%;
+        }
+
+
+
+</style>
+<body>
+
+    <div id="container">
+<div class="trymoving" id="movemEe1">
+
+</div>
+
+<div class="trymoving" id="movemEe2">
+
+</div>
+<div class="trymoving" id="movemEe3">
+
+</div>
+
+<div class="trymoving" id="movemEe4">
+
+</div>
+
+</div>
+
+
+<script>
+
+    document.getElementById("container").style.width = (window.screen.width*4)+"px";
+    
+
+    document.getElementById("container").style.height = "600px";
+    let num = 1;
+
+    function movemE() {
+        
+        var divArray = document.getElementsByClassName("trymoving");
+       /* let para = divArray[0];
+        let compStyles = window.getComputedStyle(para);
+        var leftSize = compStyles.getPropertyValue('left');*/
+
+        document.getElementById("movemEe4").innerHTML = window.screen.width+"px";
+        
+
+
+    
+
+             /* Remove code starts here*/
+          let d = document.getElementById("container");
+          let throwawayNode = d.removeChild(divArray[0]);
+          throwawayNode = null;
+         /* Remove code ends here*/
+
+         divArray[0].style.left = window.screen.availWidth+"px";
+         divArray[1].style.left = (window.screen.availWidth*2)+"px";
+
+           /* Add code starts here */
+                let sp1 = document.createElement("div")
+                sp1.className = "trymoving";
+                sp1.innerHTML = "I am new" + num;
+                num++;
+                sp1.style.width = window.screen.availWidth+"px";
+                sp1.style.backgroundColor = "white";
+                sp1.style.left = (window.screen.availWidth*3)+"px";
+
+                let sp2 = document.getElementById("movemEe4");
+                let parentDiv = sp2.parentNode;
+                parentDiv.insertBefore(sp1, sp2);
+                /* Add code ends here */
+
+            
+         
+            
+
+
+        
+        setTimeout(movemE, 5000);
+        
+    }
+
+    movemE();
+</script>
+
+</body>
+</html>

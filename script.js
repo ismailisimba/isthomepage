@@ -1,4 +1,6 @@
 
+
+
     var imagesBig = ["https://csrgpw.am.files.1drv.com/y4m0ThqgdHjddy0bV8-xdgkusaKAM-IuTyAGemQVVR8V7n3IdEFpcOA_lPPn-YsnDwddpTDoxN2d1pyBzNziqKw7G9kdBwucGKtH49SGaxQE7feyIsaFKMihPtRIeNGHh2qapMVXbJM7a5qyPy26K1MzLBL7zt42lYc4kDqMp4bxRQAXfX4l01SmOOkdgl7Ik1Nzmp4V5yhwiiy6DnXPx4XxA",
                       "https://kh8lig.am.files.1drv.com/y4mdWxk3culonTwR30Dg65o2OSQJ2oi4HWnGHqiVxxqMSZsFZU2hqyFbI0wT1bSIOvVYUVC94nrkPfzDSR_aUJzfMAyjqt1GaYiDGBvX7HXkPGeqqZmDgbrUUG_j0m9koEkwQbXjEOAeGbvvwvV_qFlbyoiS_lzMmDjHz0K6Z1gfVhtCrVsd0kB8pHZ-1SOtXOvOC9IO6ODptdaaU5w7DmoRw",
                     "https://xzo5la.am.files.1drv.com/y4mlYkEMwhv5Uz5Vq1NzI17b6u1PMF2nAwtP-jjVFj5Ym4mlKEhDQb0ASVqPWq8xrad3m0h1kHu6FifrT4JzbFnKEe6UmPgRGKo60ucC52QoR_PQQyWReH14YE33DJEOWojZjXC6YuTVkSxT0j4GqTmxaYrjBDJsYts2--kqx_znzbHCt-vqvin_z6S8e4vZmgNoAAFJolOVX6TANKDfwx2sA",
@@ -62,65 +64,113 @@
                     "Bienvenida a IST"];
 
     var titleLineCounter = titleLine.length-1;
+
+
+    var width = window.screen.width;
                     
 
     var slideIndex = 1;
     var buttonIndex = true;
     var slideIndexZero = 0;
+    var divArray = document.getElementsByClassName("top-big-back");
+
+    
+    
 
 
     const funcObj = {
 
       animateBackground: function() {
+
+       function animateStart () {
+
+        divArray = document.getElementsByClassName("top-big-back");
+        divOne = document.getElementById("test-child4");
+        divTwo = document.getElementById("test-child3");
+        divThree = document.getElementById("test-child2");
+        divFour = document.getElementById("test-child");
+
+
+        divOne.style.left = "100px";
+        
+        /*Don't move divFour, it's for insertion reference, you can remove it's image on cleanup 
+        divOne.style.left = "-100%";
+        divTwo.style.left = "-100%";
+        divThree.style.left = "-100%";*/
+
+        /* Remove code starts here
+          let d = document.getElementById("top-back-container");
+          let throwawayNode = d.removeChild(divOne);
+          throwawayNode = null;
+         /* Remove code ends here*/
+
+         /* Add code starts here 
+          let sp1 = document.createElement("div")
+                sp1.className = "top-big-back";
+                sp1.style.backgroundImage = `url(${imagesBig[8]})`;
+                width = width+"px";
+                sp1.style.width = width;
+
+                let sp2 = document.getElementById("test-child");
+                let parentDiv = sp2.parentNode;
+                parentDiv.insertBefore(sp1, sp2);
+                /* Add code ends here */
+
+            
+
+        setTimeout(animateStart,10000);
+       }
+
+        animateStart();
   
-        function animateContainer () {
 
-          var containerMargin = document.getElementById("top-back-container").style.marginLeft;
+       },
 
-          if(containerMargin == "100%" || containerMargin == "" || containerMargin == "0" || containerMargin == "0px"){
+       setScene: function(){
+        let topBackWidth = width*4;
+        let height = "600px";
+        width = width+"px";
+        topBackWidth = topBackWidth+"px";
 
-            document.getElementById("top-back-container").style.marginLeft = "-100%";
-          }else {
-            document.getElementById("top-back-container").style.marginLeft = "0";
-          }
+        
+        
+        let topBackContainer = document.getElementById("top-back-container");
+        let testChildOne = document.getElementById("test-child4");
+        let testChildTwo = document.getElementById("test-child3");
+        let testChildThree = document.getElementById("test-child2");
+        let testChildFour = document.getElementById("test-child");
 
-          setTimeout(animateContainer, 7000);
+        document.getElementById("welcome-to-div").innerHTML = "No";
+        topBackContainer.style.width = topBackWidth;
+        topBackContainer.style.backgroundColor = "black";
+        topBackContainer.style.justifyContent = "space-between";
+        topBackContainer.style.height = height;
+        
+        testChildOne.style.width = width;
+        testChildOne.style.position = "absolute";
+        testChildOne.style.top = "0";
+        testChildOne.style.left = "500px";
+        testChildOne.style.backgroundImage = `url(${imagesBig[0]})`;
 
-         }
+        testChildTwo.style.width = width;
+        testChildTwo.style.position = "absolute";
+        testChildTwo.style.top = "0";
+        testChildTwo.style.left = "100%";
+        testChildTwo.style.backgroundImage = `url(${imagesBig[1]})`;
 
-          
-        function animateMe () {
-          var randIndex = Math.floor((Math.random() * imagesBig.length) + 0);
-          
+        testChildThree.style.width = width;
+        testChildThree.style.position = "absolute";
+        testChildThree.style.top = "0";
+        testChildThree.style.left = "200%";
+        testChildThree.style.backgroundImage = `url(${imagesBig[2]})`;
 
-          if(slideIndex%2 == 0 || slideIndex == 0){
+        testChildFour.style.width = width;
+        testChildFour.style.position = "absolute";
+        testChildFour.style.top = "0";
+        testChildFour.style.left = "300%";
+        testChildFour.style.backgroundImage = `url(${imagesBig[3]})`;
 
-            document.getElementById("top-big-back").style.backgroundImage = `url(${imagesBig[randIndex]})`;
-            slideIndex++;
-          }else {
-            document.getElementById("top-big-back2").style.backgroundImage = `url(${imagesBig[randIndex]})`;
-            
-            /*var test100 = document.getElementById("top-back-container").style.marginLeft;
-            document.getElementById("find-out-title-text").innerHTML = randIndex;*/
-            
-            slideIndex++;
-           }
-
-          if (slideIndex == imagesBig.length){
-            slideIndex = 1;
-          }
-
-          setTimeout(animateMe, 7000);
-
-
-
-    }
-
-    animateContainer();
-    animateMe();
-
-
-  },
+       },
 
 
 
@@ -246,7 +296,6 @@
   },
 
   smallifyImages: function () {
-    let width = window.screen.width;
 
     if( width <= 1024){
       imagesBig = imagesSmall;
@@ -257,8 +306,11 @@
 }
 
 funcObj.smallifyImages();
-funcObj.animateBackground();
+funcObj.setScene();
+
+
 funcObj.animateFindOutDetails();
+funcObj.animateBackground();
 
 
 
@@ -286,5 +338,5 @@ document.getElementById("find-out-title-text").innerHTML = test100;*/
 
 
 
-
+document.getElementById("welcome-to-div").innerHTML = "Hello???";
 
