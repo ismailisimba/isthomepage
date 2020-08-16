@@ -28,15 +28,15 @@
 
 
     var imagesCaption = { "0": ["Children from IST and local schools' Roots and Shoots clubs meet Dr. Jane Goodall. - February 2019.","button-left-top"],
-                          "1": ["A Red Riding Hood scene from Into The Woods, Middle and High School Play. - December 2019","button-right-bottom"],
+                          "1": ["A Red Riding Hood scene from Into The Woods, Middle and High School Play. - December 2019","button-left-top"],
                           "2": ["International Day Secondary Campus, 2019.","button-right-top"],
                           "3": ["Siku ya Furaha, a Friday of learning and celebrating Tanzanian culture on Elementary Campus. - September 2019","button-left-top"],
                           "4": ["Math games during ISSEA STEM 2019 at IST. - April 2019","button-right-top"],
                           "5": ["Live performances during the joint-campus music event, Ignite. - October 2019","button-left-top"],
                           "6": ["Learning outdoor skills with outdoor classrooms at Elementary Campus. - All year!","button-right-top"],
-                          "7": ["Training for excellent boomerang combat skills!","button-right-bottom"],
-                          "8": ["2 modern pools, 1 each campus.","button-right-bottom"],
-                          "9": ["2 fully equipped libraries, 1 each campus.","button-right-bottom"]};
+                          "7": ["Training for excellent boomerang combat skills!","button-left-top"],
+                          "8": ["2 modern pools, 1 each campus.","button-right-top"],
+                          "9": ["2 fully equipped libraries, 1 each campus.","button-right-top"]};
                           
 
                   /*never use left bottom here!!*/ 
