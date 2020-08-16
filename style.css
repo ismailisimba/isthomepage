@@ -247,6 +247,8 @@
 
     font-family: "Montserrat", sans-serif;
 
+    overflow-x: hidden;
+
     
 
     
@@ -254,10 +256,13 @@
 }
 
 #top-back-container{
-    display: flex;
-    flex-direction: row;
-  
-    width: 200%;
+    display: block;
+    position: relative;
+    top: 0;
+    
+            left: 0;
+            width: 100%;
+            height: 600px;
 
   
     
@@ -265,29 +270,32 @@
 
 
 .top-big-back {
-    background-image: url("https://csrgpw.am.files.1drv.com/y4m0ThqgdHjddy0bV8-xdgkusaKAM-IuTyAGemQVVR8V7n3IdEFpcOA_lPPn-YsnDwddpTDoxN2d1pyBzNziqKw7G9kdBwucGKtH49SGaxQE7feyIsaFKMihPtRIeNGHh2qapMVXbJM7a5qyPy26K1MzLBL7zt42lYc4kDqMp4bxRQAXfX4l01SmOOkdgl7Ik1Nzmp4V5yhwiiy6DnXPx4XxA");
+
+    display: block;
+        position: absolute;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-height: 600px;
-    width: 100%;
+    height: 600px;
+    
     margin: 0;
 
     box-sizing: border-box;
 
     transition: all;
 
-    -webkit-transition-duration: 15s;
-    -moz-transition-duration: 15s;
-    -o-transition-duration: 15s;
-    transition-duration: 15s;
+    -webkit-transition-duration: 4.5s;
+    -moz-transition-duration: 4.5s;
+    -o-transition-duration: 4.5s;
+    transition-duration: 4.5s;
 
 
-    -webkit-transition-timing-function: ease-in;
-    -moz-transition-timing-function: ease-in;
-    -o-transition-timing-function: ease-in;
-    transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
 
 }
 
@@ -317,7 +325,7 @@
 
     position: relative;
     top: -90px;
-
+    z-index: 9;
 
 
     justify-content: space-evenly;

@@ -14,6 +14,8 @@
 
         transition: all;
         transition-duration: 5s;
+        background-color: yellowgreen;
+        
 
         
         width: 100%;
@@ -22,42 +24,12 @@
 
     }
 
-    #movemEe1 {
 
-      
-        left: 100px;
-        background-color: aqua;
-
-     
-       }
-
-
-    #movemEe2 {
-
-            
-        left: 300px;
-        background-color: black;
-
-
-        }
-
-
-    #movemEe3 {
-
-                    
-        left: 500px;
-        background-color: orange;
-
-
-        }
 
 
     #movemEe4 {
-
-                    
-        left: 700px;
-        background-color: red;
-        color: white;
+         
+      
         visibility: hidden;
 
 
@@ -67,6 +39,7 @@
             background-color: blue;
             position: absolute;
             left: -200%;
+            width: 400%
         }
 
 
@@ -126,10 +99,10 @@
            /* Add code starts here */
                 let sp1 = document.createElement("div")
                 sp1.className = "trymoving";
-                sp1.innerHTML = "I am new" + num;
+                sp1.style.backgroundColor = "yellowgreen";
+                sp1.innerHTML = "I am div number " + num;
                 num++;
                 sp1.style.width = window.screen.availWidth+"px";
-                sp1.style.backgroundColor = "white";
                 sp1.style.left = (window.screen.availWidth*3)+"px";
 
                 let sp2 = document.getElementById("movemEe4");

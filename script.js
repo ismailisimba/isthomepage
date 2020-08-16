@@ -84,41 +84,42 @@
 
        function animateStart () {
 
+        let randIndex = Math.floor((Math.random() * imagesBig.length) + 0);
+
         divArray = document.getElementsByClassName("top-big-back");
-        divOne = document.getElementById("test-child4");
-        divTwo = document.getElementById("test-child3");
-        divThree = document.getElementById("test-child2");
-        divFour = document.getElementById("test-child");
+      
 
 
-        divOne.style.left = "100px";
-        
-        /*Don't move divFour, it's for insertion reference, you can remove it's image on cleanup 
-        divOne.style.left = "-100%";
-        divTwo.style.left = "-100%";
-        divThree.style.left = "-100%";*/
+       
 
-        /* Remove code starts here
-          let d = document.getElementById("top-back-container");
-          let throwawayNode = d.removeChild(divOne);
-          throwawayNode = null;
-         /* Remove code ends here*/
 
-         /* Add code starts here 
-          let sp1 = document.createElement("div")
-                sp1.className = "top-big-back";
-                sp1.style.backgroundImage = `url(${imagesBig[8]})`;
-                width = width+"px";
-                sp1.style.width = width;
+             /* Remove code starts here*/
+             let d = document.getElementById("top-back-container");
+             let throwawayNode = d.removeChild(divArray[0]);
+             throwawayNode = null;
+            /* Remove code ends here*/
+   
+            divArray[0].style.left = "-"+ (window.screen.availWidth)+"px";;
+            divArray[1].style.left ="0";
+   
+              /* Add code starts here */
+              let sp1 = document.createElement("div");
+              sp1.className = "top-big-back";
+              sp1.style.backgroundImage = `url(${imagesBig[randIndex]})`;
+            
+            
+              sp1.style.width = window.screen.availWidth+"px";
+              sp1.style.left = window.screen.availWidth+"px";
 
-                let sp2 = document.getElementById("test-child");
-                let parentDiv = sp2.parentNode;
-                parentDiv.insertBefore(sp1, sp2);
-                /* Add code ends here */
+              let sp2 = document.getElementById("top-child4");
+              let parentDiv = sp2.parentNode;
+              parentDiv.insertBefore(sp1, sp2);
+              /* Add code ends here */
+   
 
             
 
-        setTimeout(animateStart,10000);
+        setTimeout(animateStart,4500);
        }
 
         animateStart();
@@ -135,40 +136,40 @@
         
         
         let topBackContainer = document.getElementById("top-back-container");
-        let testChildOne = document.getElementById("test-child4");
-        let testChildTwo = document.getElementById("test-child3");
-        let testChildThree = document.getElementById("test-child2");
-        let testChildFour = document.getElementById("test-child");
+        divArray = document.getElementsByClassName("top-big-back");
 
-        document.getElementById("welcome-to-div").innerHTML = "No";
+       // document.getElementById("welcome-to-div").innerHTML = "Yes";
         topBackContainer.style.width = topBackWidth;
-        topBackContainer.style.backgroundColor = "black";
-        topBackContainer.style.justifyContent = "space-between";
+       topBackContainer.style.backgroundColor = "#1e4488";
         topBackContainer.style.height = height;
         
-        testChildOne.style.width = width;
-        testChildOne.style.position = "absolute";
-        testChildOne.style.top = "0";
-        testChildOne.style.left = "500px";
-        testChildOne.style.backgroundImage = `url(${imagesBig[0]})`;
+        divArray[0].style.width = width;
+        divArray[0].style.position = "absolute";
+        divArray[0].style.top = "0";
+        divArray[0].style.left = "-"+ (window.screen.availWidth)+"px";
+        divArray[0].style.backgroundImage = `url(${imagesBig[1]})`;
+       // divArray[0].innerHTML = "I am div One!";
 
-        testChildTwo.style.width = width;
-        testChildTwo.style.position = "absolute";
-        testChildTwo.style.top = "0";
-        testChildTwo.style.left = "100%";
-        testChildTwo.style.backgroundImage = `url(${imagesBig[1]})`;
+        divArray[1].style.width = width;
+        divArray[1].style.position = "absolute";
+        divArray[1].style.top = "0";
+        divArray[1].style.left = (window.screen.availWidth)+"px";
+        divArray[1].style.backgroundImage = `url(${imagesBig[2]})`;
+       // divArray[1].innerHTML = "I am div Two!";
 
-        testChildThree.style.width = width;
-        testChildThree.style.position = "absolute";
-        testChildThree.style.top = "0";
-        testChildThree.style.left = "200%";
-        testChildThree.style.backgroundImage = `url(${imagesBig[2]})`;
+        divArray[2].style.width = width;
+        divArray[2].style.position = "absolute";
+        divArray[2].style.top = "0";
+        divArray[2].style.left = (window.screen.availWidth)+"px";
+        divArray[2].style.backgroundImage = `url(${imagesBig[2]})`;
+        //divArray[2].innerHTML = "I am div Three!";
 
-        testChildFour.style.width = width;
-        testChildFour.style.position = "absolute";
-        testChildFour.style.top = "0";
-        testChildFour.style.left = "300%";
-        testChildFour.style.backgroundImage = `url(${imagesBig[3]})`;
+        divArray[3].style.width = width;
+        divArray[3].style.position = "absolute";
+        divArray[3].style.top = "0";
+        divArray[3].style.left = (window.screen.availWidth*2)+"px";
+        divArray[3].style.backgroundColor = "red";
+       // divArray[3].innerHTML = "I am div Four!";
 
        },
 
@@ -276,6 +277,7 @@
   reverseHover: function () {
     document.getElementById("find-out").style.top ="-350px";
     document.getElementById("shadow-mask").style.opacity = "0.65";
+    document.getElementById("shadow-mask").style.zIndex = "5";
 
   
   },
@@ -338,5 +340,5 @@ document.getElementById("find-out-title-text").innerHTML = test100;*/
 
 
 
-document.getElementById("welcome-to-div").innerHTML = "Hello???";
+//document.getElementById("welcome-to-div").innerHTML = "Hello???";
 
