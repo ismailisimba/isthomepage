@@ -140,7 +140,7 @@
 
        // document.getElementById("welcome-to-div").innerHTML = "Yes";
         topBackContainer.style.width = topBackWidth;
-       topBackContainer.style.backgroundColor = "#1e4488";
+       topBackContainer.style.backgroundColor = "#76bc43";
         topBackContainer.style.height = height;
         
         divArray[0].style.width = width;
