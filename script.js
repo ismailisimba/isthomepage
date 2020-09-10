@@ -37,6 +37,11 @@
                           "7": ["Training for excellent boomerang combat skills!","button-left-top"],
                           "8": ["2 modern pools, 1 each campus.","button-right-top"],
                           "9": ["2 fully equipped libraries, 1 each campus.","button-right-top"]};
+
+
+  var mainCaptions = { "0": ["International Baccalaureate Diploma (IBDP) Grade 11 & 12","button-left-top"],
+  "1": ["Middle Years Program Grade 6 - 10","button-left-top"],
+  "2": ["Elementary Campus Primary Years Program Age 3(EC) - Grade 5","button-right-top"]};
                           
 
                   /*never use left bottom here!!*/ 
@@ -45,25 +50,25 @@
     var previousBox = document.getElementById("button-right-top");
     var previousTitle = "Karibu IST";
 
+/*
+    var lineOne = ["",
+                    "",
+                    ""];
 
-    var lineOne = ["International Baccalaureate",
-                    "Middle Years",
-                    "Elementary Campus"];
+    var lineTwo = ["",
+                    "",
+                    ""];
 
-    var lineTwo = ["Diploma (IBDP)",
-                    "Program",
-                    "Primary Years Program"];
-
-    var lineThree = ["Grade 11 & 12",
-                    "Grade 6 - 10",
-                    "Age 3(EC) - Grade 5"];
+    var lineThree = ["",
+                    "",
+                    ""];
 
     var titleLine = ["Karibu IST",
                     "Welcome to IST",
                     "Bienvenue chez IST",
                     "Bienvenida a IST"];
 
-    var titleLineCounter = titleLine.length-1;
+    var titleLineCounter = titleLine.length-1;*/
 
 
     var width = window.screen.width;
@@ -116,6 +121,7 @@
               parentDiv.insertBefore(sp1, sp2);
               /* Add code ends here */
    
+
 
             
 
@@ -175,56 +181,7 @@
 
 
 
-  animateFindOutDetails: function () {
-
-    function animateDetails () {
-
-      var linesArray = document.getElementsByClassName("find-out-details-text");
-
-      linesArray[0].innerHTML = lineOne[slideIndexZero];
-      linesArray[1].innerHTML = lineTwo[slideIndexZero];
-      linesArray[2].innerHTML = lineThree[slideIndexZero]; 
-  
-      
-  
-      if(slideIndexZero == 2) {
-        slideIndexZero=0;
-      }else{
-        slideIndexZero++;
-      }
-      
-
-      setTimeout(animateDetails,2300);
-
-    }
-
-    function animateKaribu () {
-
-      var karibuTitle = document.getElementById("find-out-title");
-      if (titleLineCounter > 0){
-        karibuTitle.innerHTML = titleLine[titleLineCounter];
-        titleLineCounter--;
-
-      }else {
-
-        karibuTitle.innerHTML = titleLine[titleLineCounter];
-        titleLineCounter = titleLine.length-1;
-
-      };
-
-  
-
-      
-      
-
-      setTimeout(animateKaribu,1200);
-
-    }
-
-    animateDetails();
-    animateKaribu();
-
-  
+       animateMainCaptions: function () {
 
 
   },
@@ -276,8 +233,8 @@
 
   reverseHover: function () {
     document.getElementById("find-out").style.top ="-350px";
-    document.getElementById("shadow-mask").style.opacity = "0.65";
-    document.getElementById("shadow-mask").style.zIndex = "5";
+    //document.getElementById("shadow-mask").style.opacity = "0.65";
+    //document.getElementById("shadow-mask").style.zIndex = "5";
 
   
   },
@@ -287,10 +244,10 @@
 
      if (top == "-350px") {
        document.getElementById("find-out").style.top = "-90px";
-       document.getElementById("shadow-mask").style.opacity = "0";
+       //document.getElementById("shadow-mask").style.opacity = "0";
      } else {
       document.getElementById("find-out").style.top = "-350px";
-      document.getElementById("shadow-mask").style.opacity = "0.65";
+      //document.getElementById("shadow-mask").style.opacity = "0.65";
       
      }
 
@@ -311,7 +268,7 @@ funcObj.smallifyImages();
 funcObj.setScene();
 
 
-funcObj.animateFindOutDetails();
+funcObj.animateMainCaptions();
 funcObj.animateBackground();
 
 
