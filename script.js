@@ -146,7 +146,7 @@
 
        // document.getElementById("welcome-to-div").innerHTML = "Yes";
         topBackContainer.style.width = topBackWidth;
-       topBackContainer.style.backgroundColor = "#76bc43";
+       topBackContainer.style.backgroundColor = "red";
         topBackContainer.style.height = height;
         
         divArray[0].style.width = width;
@@ -159,7 +159,8 @@
         divArray[1].style.width = width;
         divArray[1].style.position = "absolute";
         divArray[1].style.top = "0";
-        divArray[1].style.left = (window.screen.availWidth)+"px";
+        //divArray[1].style.left = (window.screen.availWidth)+"px";
+        divArray[1].style.left = "0px";
         divArray[1].style.backgroundImage = `url(${imagesBig[2]})`;
        // divArray[1].innerHTML = "I am div Two!";
 
@@ -183,21 +184,67 @@
 
        animateMainCaptions: function () {
          let currentIndex = 0;
+         var mainCaptionBox = document.getElementById("main-text-captions");
+         var colorBox = document.getElementById("main-text-hiding");
 
         function animatemyCaptions () {
 
           if (currentIndex <= 2){
 
-            var mainCaptionBox = document.getElementById("main-text-captions");
+           
             // var randIndex = Math.floor((Math.random() * mainCaptions.length) + 0);
-             var randIndexString = currentIndex.toString();
-             mainCaptionBox.innerHTML = mainCaptions[randIndexString][0];
+            let compStyles = window.getComputedStyle(colorBox);
+            let top = compStyles.getPropertyValue('top');
+
+            if (top == "100px") {
+              colorBox.style.top = "-100px";
+
+            }else if (top == "-100px") {
+              colorBox.style.top = "100px";
+
+            }else{
+             colorBox.style.top = "100px";
+            }
+
+        
+            var randIndexString = currentIndex.toString();
+
+            setTimeout(function() {
+              mainCaptionBox.innerHTML = mainCaptions[randIndexString][0];
+            },2000);
+
+           
+             //mainCaptionBox.innerHTML = top;
 
             currentIndex++;
 
           }else{
 
+            let compStyles = window.getComputedStyle(colorBox);
+            let top = compStyles.getPropertyValue('top');
+
+            if (top == "100px") {
+              colorBox.style.top = "-100px";
+
+            }else if (top == "-100px") {
+              colorBox.style.top = "100px";
+
+            }else{
+             colorBox.style.top = "100px";
+            }
+
             currentIndex = 0;
+            var randIndexString = currentIndex.toString();
+
+            setTimeout(function() {
+              mainCaptionBox.innerHTML = mainCaptions[randIndexString][0];
+            },2000);
+
+            currentIndex++;
+
+           
+
+            
           }
 
         
