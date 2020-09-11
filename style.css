@@ -317,7 +317,7 @@
     min-height: 600px;
     width: 25%;
     opacity: 1;
-    background-color: #1e4488;
+    background-color: none;
 
     z-index: 100;
 
@@ -339,6 +339,7 @@
 
     position: absolute;
     max-height: 200px;
+    height: 100px;
     width: 300px;
     opacity: 1;
     background-color: #76bc43;
@@ -373,7 +374,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color:red;
+    background-color:none;
     width: 100%;
     height: 100%;
 

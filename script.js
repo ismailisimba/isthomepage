@@ -182,13 +182,32 @@
 
 
        animateMainCaptions: function () {
+         let currentIndex = 0;
 
-        var mainCaptionBox = document.getElementById("main-text-captions");
-       // var randIndex = Math.floor((Math.random() * mainCaptions.length) + 0);
-       var randIndex = 2;
-        var randIndexString = randIndex.toString();
-        mainCaptionBox.innerHTML = mainCaptions[randIndexString][0];
+        function animatemyCaptions () {
 
+          if (currentIndex <= 2){
+
+            var mainCaptionBox = document.getElementById("main-text-captions");
+            // var randIndex = Math.floor((Math.random() * mainCaptions.length) + 0);
+             var randIndexString = currentIndex.toString();
+             mainCaptionBox.innerHTML = mainCaptions[randIndexString][0];
+
+            currentIndex++;
+
+          }else{
+
+            currentIndex = 0;
+          }
+
+        
+           setTimeout(animatemyCaptions,4500);
+
+        }
+
+        animatemyCaptions ();
+
+    
 
   },
 
