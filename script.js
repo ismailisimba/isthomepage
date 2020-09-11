@@ -39,9 +39,9 @@
                           "9": ["2 fully equipped libraries, 1 each campus.","button-right-top"]};
 
 
-  var mainCaptions = { "0": ["International Baccalaureate Diploma (IBDP) Grade 11 & 12","button-left-top"],
-  "1": ["Middle Years Program Grade 6 - 10","button-left-top"],
-  "2": ["Elementary Campus Primary Years Program Age 3(EC) - Grade 5","button-right-top"]};
+  var mainCaptions = { "0": ["International Baccalaureate Diploma (IBDP) <br>Grade 11 & 12","button-left-top"],
+  "1": ["Middle Years Program <br> Grade 6 - 10","button-left-top"],
+  "2": ["Elementary Campus <br> Primary Years Program <br> Age 3(EC) - Grade 5","button-right-top"]};
                           
 
                   /*never use left bottom here!!*/ 
@@ -183,6 +183,12 @@
 
        animateMainCaptions: function () {
 
+        var mainCaptionBox = document.getElementById("main-text-captions");
+       // var randIndex = Math.floor((Math.random() * mainCaptions.length) + 0);
+       var randIndex = 2;
+        var randIndexString = randIndex.toString();
+        mainCaptionBox.innerHTML = mainCaptions[randIndexString][0];
+
 
   },
 
@@ -231,29 +237,6 @@
 
   },
 
-  reverseHover: function () {
-    document.getElementById("find-out").style.top ="-350px";
-    //document.getElementById("shadow-mask").style.opacity = "0.65";
-    //document.getElementById("shadow-mask").style.zIndex = "5";
-
-  
-  },
-  resetHover: function () {
-
-     let top = document.getElementById("find-out").style.top ;
-
-     if (top == "-350px") {
-       document.getElementById("find-out").style.top = "-90px";
-       //document.getElementById("shadow-mask").style.opacity = "0";
-     } else {
-      document.getElementById("find-out").style.top = "-350px";
-      //document.getElementById("shadow-mask").style.opacity = "0.65";
-      
-     }
-
-  
-  },
-
   smallifyImages: function () {
 
     if( width <= 1024){
@@ -281,10 +264,6 @@ let welcomeToDiv = document.getElementById("welcome-to-div");
 
 bottom.addEventListener("click",funcObj.theButton, false);
 
-topBack.addEventListener("mouseover",funcObj.reverseHover, false);
-topBack.addEventListener("click",funcObj.resetHover, false);
-findOutBox.addEventListener("click",funcObj.resetHover, false);
-welcomeToDiv.addEventListener("click",funcObj.resetHover, false);
 
 
 
