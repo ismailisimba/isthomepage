@@ -41,7 +41,8 @@
 
   var mainCaptions = { "0": ["International Baccalaureate Diploma (IBDP) <br>Grade 11 & 12","button-left-top"],
   "1": ["Middle Years Program <br> Grade 6 - 10","button-left-top"],
-  "2": ["Elementary Campus <br> Primary Years Program <br> Age 3(EC) - Grade 5","button-right-top"]};
+  "2": ["Elementary Campus <br> Primary Years Program <br> Age 3(EC) - Grade 5","button-right-top"],
+  "3": ["I am also displaying","button-right-top"]};
                           
 
                   /*never use left bottom here!!*/ 
@@ -72,6 +73,9 @@
 
 
     var width = window.screen.width;
+
+    var mainTextTexty = document.getElementById("main-text-mask");
+    mainTextTexty.style.width = width+"px";
                     
 
     var slideIndex = 1;
@@ -189,7 +193,7 @@
 
         function animatemyCaptions () {
 
-          if (currentIndex <= 2){
+          if (currentIndex <= 3){
 
            
             // var randIndex = Math.floor((Math.random() * mainCaptions.length) + 0);
