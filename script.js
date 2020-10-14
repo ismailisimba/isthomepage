@@ -75,7 +75,7 @@
     var width = window.screen.width;
 
     var mainTextTexty = document.getElementById("main-text-mask");
-    mainTextTexty.style.width = width+"px";
+    mainTextTexty.style.width = (width-100)+"px";
                     
 
     var slideIndex = 1;
