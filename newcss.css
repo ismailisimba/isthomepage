@@ -1,0 +1,694 @@
+#boxonetwo{ 
+    display:block;
+    position:relative;
+   
+    width:300%;
+    left: -20%;
+     height: 100%;
+       min-height:569px;
+    margin-top: -40px;
+    background-color: blue}
+    
+    
+    #boxtwoone{ 
+    display:block;
+      position: relative;
+    width:50%;
+    height: 100%;
+      min-height: 569px;
+    background-color: #1e4488}
+    
+    .top-big-back {
+  
+      display: block;
+          position: absolute;
+      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      height: 569px;
+      width: 25%;
+      
+      margin: 0;
+  
+      box-sizing: border-box;
+  
+      transition: all;
+  
+      -webkit-transition-duration: 4.5s;
+      -moz-transition-duration: 4.5s;
+      -o-transition-duration: 4.5s;
+      transition-duration: 4.5s;
+  
+  
+      -webkit-transition-timing-function: ease-in-out;
+      -moz-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
+  
+  }
+    
+    .top-big-back:first-child {
+      left:-100%;
+    }
+    
+    .top-big-back:nth-child(2) {
+      left: 0px;
+    }
+    .top-big-back:nth-child(3) {
+      left: 100%;
+    }
+    
+    
+    .top-big-back:last-child {
+      left: 100%;
+    }
+
+    #welcome-to-div {
+        display: block;
+        position: relative;
+        left: 0px;
+        top:0px;
+        
+
+        font-size: xx-large;
+        text-align: center;
+        color: #1e4488;
+        font-weight: 600;
+        padding-top: 30px;
+    
+    
+        box-sizing: border-box;
+        
+    
+    }
+
+    #education-div, #learning-div-top, #become-twiga-top{
+
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+    
+        flex: content;
+    
+        justify-content: space-evenly;
+        align-self: center;
+    
+        width: 100%;
+    
+        min-height: 200px;
+        height: auto;
+    
+    }
+
+    #education-div-title, #learning-div-title, #become-twiga-title, #explore-div-title {
+
+        font-size: x-large;
+        color: #febd3d;
+        font-weight: 400;
+
+        padding-top: 30px;
+        text-align: center;
+    
+    
+        box-sizing: border-box;
+        font-weight: 600;
+    
+    }
+
+    #education-div-details {
+
+        font-size: larger;
+        color: #323e48;
+        font-weight: 300;
+        line-height: 30px;
+    
+        padding-top: 15px;
+    
+    
+    
+        box-sizing: border-box;
+    
+    }
+
+    #challengesup-div, #learning-div-bottom  {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        justify-content: space-around;
+    
+        width: 100%;
+    
+        align-items: center;
+    
+        padding-top: 30px;
+
+
+      
+    
+        flex: content;
+    
+      
+    
+      
+    
+        min-height: 200px;
+        height: auto;
+        
+    
+    
+    
+    }
+
+
+    .edu-items, .learn-items {
+        width: 30%;
+        min-width: 250px;
+        min-height: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 16px;
+        padding-bottom: 18px;
+        text-align: center;
+    
+        line-height: normal;
+        box-sizing: border-box;
+    }
+
+    
+.edu-items img {
+    width: 10%;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+.edu-items-text{
+    color: #1e4488;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.edu-items  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+  
+
+ 
+    font-weight: 700;
+}
+
+
+#challenge-main {
+    color: #1e4488;
+
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+#support-main {
+    color: #febd3d;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+#inspire-main {
+    color: #76bc43;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.main-vision-text {
+
+    font-size: medium;
+}
+
+
+
+#challenge-image {
+    background-image: url("https://xjo3la.am.files.1drv.com/y4m2-mO03ZMokEa-Q4iBCpBfOi2z4SoI1Q6_zGJkOPAQlCOrbkPK7I3tsiI1Bnziby22FLaJIvBUTz_oYDwXnWDeR6CLxCGkPvIyhjq3xE2bDyZB10nWee7mYWOe7fdi-vTDoUMbZehkelFvREtiFLFu_1ih6Kclc9sk3yE0LEvysSh2fEWDNYVImDAzQGkDNVuy4a5fNZwGezo8dZ2LFy5dw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#support-image {
+    background-image: url("https://ndj0qq.am.files.1drv.com/y4m3U0wVLv_uEg0Sn3D0ANYjWXdTJZRmWjRrm1gUbpOqYtBKZ0s0DQy9Zl6CtNyVffxIZh3xuxdBufs40vgCH_OEEB8Sz9SAehzAPP0GQCg8DVlRMyzNd7VVpUB-a021gEuvQUw6UA2oI6Sld7ycm5AAI6OjcSFi0fps07VQ9j4B9ZwoaMZTtjHPuQEc1q3JUbnicCEH7MEsCMPWsbm8-9L2w");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#inspire-image {
+    background-image: url("https://acrmnw.am.files.1drv.com/y4mScA6QgWauRH380-JrYrNCdCdRgAf_z0s7mXEq2Ocpr1ks-Wd2inQroaorb6bfMmUWCjZRKeNgzmrqu-YBW_FlxcPFVyVbE_IWFKod8C-H0FKvZimn0AUALXjh2gS3D1d7I3cQoSfPIiIk2bIiObO070b0R25Wd_YrxxxXJfKsG2Con5Vp1QzcBhMZdtC3mbQeAJAaa6dB9WBelX-Oxly8g");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#pyp-logo {
+    background-image: url("https://0ifdhw.am.files.1drv.com/y4mfLtXS-ybSUugIT-yGaRVaCUP7VK2SaniQsjXHGwvXJvQDcZVTlob9As6Y91MdztUXErVXeSDwKS5buoLgHQeZR6EKIQOrz5CbpGgRfiV0YzTXp_Ebq9AY8nyVbn8WLD0i50wP0gxxJXsye_MX0X2soGFc_FVNYT8WloXIPIFTcak1BPkGZL9fa4-bha5gup0FdlfubR8oaHHVX1E3IyZEA");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#myp-logo {
+    background-image: url("https://n62b5a.am.files.1drv.com/y4mI-bGX4zMsQVMpJli7bic9PsDUAFfndVFtaq5cloptn9WKKZ3aW1xPdmgdPqXPnHJ1vdfhKnueo8-NbbHWOd6o-863W8OWBeMrYhSJQGl2J92ULkhlAVWZeDVN1PT4aKR7Wxw26bLinRqNoDKEK6xkpMgAPlVplzDmqSa_zk27QWOw5nIKjPRQVH3oU37J2-En4v_DypexwSzr-AgDLvHlw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#dp-logo {
+    background-image: url("https://lfgufa.am.files.1drv.com/y4mlQJWwHnGAV5wves-M3z5B00A9vKGyE9kvRUGgAgSiyC3lPUyIhRfVLwpS0jiV3GG2IbFEqhmcPqh2N824C13H6Q-Wx8mmVSqR3F0Qcpm8A-R1YVwi2yKpd_1Hl2hToULo8cv7qLyEombVFLYGXUC3pZ7xOLNkJDJpQO-ioN6bwmBoi1uPTfdzdLNIn5Nyp0CPW3-Bt_hp0KC-52dbp10Yw");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+#learning-div-bottom {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    width: 95%;
+
+    align-self: center;
+
+}
+
+
+
+.learn-items {
+
+    width: 30%;
+    min-width: 350px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    line-height: normal;
+    box-sizing: border-box;
+}
+
+.learn-items img {
+
+    width: 250px;
+    height: 100px;    
+}
+
+
+.edu-items .main-vision, #learning-div-bottom .learning-vision {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  
+
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.learning-vision {
+  color: #1e4488;
+
+}
+
+
+#highlighted-story-div {
+    background-image: url("https://xzo5la.am.files.1drv.com/y4mfqM1DdJDHGn3UU-Hk1aSvN9g6_CRhkjJXXF7SfX7-lfOICAzzhtGXYR34Qr8vhRj3QiIjwS5GKfV7pUs6DFwQJmKoGf5mJ3rSpiNL2DyincJys0aG0EK9ClwT4PHvjNAmP3oaTqi09rQhVBEMecSc7lPIb9RLYCu-xhcPR5IsTTfIy6WCykbbr2hk-pU1Qodb--vxTIGKs6lGr1LpVu-SQ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 600px;
+    width: 100%;
+
+
+    box-sizing: border-box;
+
+    display: block;
+    display: flex;
+
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+#highlighted-story-button {
+
+    position: relative;
+    top: 200px;
+
+    font-size: xx-large;
+    color: #1e4488;
+    background-color: #76bc43;
+    font-weight: 600;
+
+
+
+    width: fit-content;
+    max-width: 300px;
+    align-self: center;
+
+    padding: 15px 10px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    box-shadow: 0.5px 1px 3px 0.2px #323e48;
+
+    box-sizing: border-box;
+
+
+}
+
+
+
+.become-twiga-buttons:hover, #highlighted-story-button:hover {
+
+
+    box-shadow: none;
+    
+  
+ 
+
+}
+
+
+
+
+#become-twiga-details {
+
+    font-size: larger;
+    color: #323e48;
+    font-weight: 300;
+    line-height: 30px;
+
+    padding-top: 15px;
+    padding-bottom: 30px;
+
+
+
+    box-sizing: border-box;
+
+}
+
+
+#become-twiga-bottom  {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    width: 95%;
+
+    align-self: center;
+
+
+    box-sizing: border-box;
+    margin-bottom: 24px;
+
+
+}
+
+
+.become-twiga-buttons {
+
+    width: 20%;
+    min-height: fit-content;
+    min-width: 250px;
+
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 10px 5px;
+
+    box-shadow: 0.5px 1px 3px 0.2px #1e4488;
+    
+  
+  text-align: center;
+
+    line-height: normal;
+    box-sizing: border-box;
+
+    font-size: x-large;
+    font-weight: 500;
+
+    border-radius: 3px;
+
+    background-color: #76bc43;
+    color: white;
+}
+
+
+#explore-div-details {
+
+    font-size: large;
+    color: #323e48;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 12px;
+
+
+
+}
+
+
+#footer {
+
+
+    display: block;
+    position: relative;
+    left: -20%;
+    margin-top: 25px;
+    min-height: 400px;
+    width: 280%;
+    background-color: #76bc43;
+
+
+}
+
+
+#footer-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    left:0px;
+    
+  
+    width: 100%;
+
+    transition: all;
+
+    -webkit-transition-duration: 1.2s;
+    -moz-transition-duration: 1.2s;
+    -o-transition-duration: 1.2s;
+    transition-duration: 1.2s;
+
+
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    
+}
+
+
+
+#footer-left {
+    background-image: url("https://ntjuqq.am.files.1drv.com/y4mKxN5IjPsf5M0fPqBxjEJhUfw6y1Puns04x59RMJ7mTDEI6UUs5gzu59-22dgYzJ0-Zo2t69sqNmIMHasAS_rcObiWucD2Y1IJNtqF1nOPhAX5Z0MbJ7auk1TKqGFknaKEml8dP98iF8H3f2uvOXLCt8FiEmbNMaQtj6AcA8rnOGns4znzmVuaXAxhHhc0mkf_hhsQQbLxMP1_jaLI8B75Q");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 600px;
+    width: 50%;
+    margin: 0;
+
+    display: block;
+    position: relative;
+
+    top : 0px;
+    left: 0px;
+
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+
+
+
+}
+
+#footer-right {
+    background-image: url("https://xzo5la.am.files.1drv.com/y4mfqM1DdJDHGn3UU-Hk1aSvN9g6_CRhkjJXXF7SfX7-lfOICAzzhtGXYR34Qr8vhRj3QiIjwS5GKfV7pUs6DFwQJmKoGf5mJ3rSpiNL2DyincJys0aG0EK9ClwT4PHvjNAmP3oaTqi09rQhVBEMecSc7lPIb9RLYCu-xhcPR5IsTTfIy6WCykbbr2hk-pU1Qodb--vxTIGKs6lGr1LpVu-SQ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 600px;
+    width: 50%;
+    
+
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+
+
+    display: block;
+    position: relative;
+
+    top : 0px;
+    left: 0px;
+
+ 
+
+}
+
+
+.footer-buttons {
+    
+
+    width: 25%;
+    min-width: 120px;
+    
+    height: fit-content;
+    border-radius: 3px;
+    background-color: #76bc43;
+
+   
+    box-shadow: 0.5px 1px 3px 0.2px #323e48;
+    
+
+}
+
+
+
+
+
+#button-right-top1, #button-right-top2 {
+
+    
+
+    font-weight: 700;
+    font-size: large;
+    padding: 20px;
+    color:#1e4488;
+
+
+    
+
+}
+
+
+
+
+
+#button-left-bottom1, #button-left-bottom2 {
+
+    margin-top: 12px;
+ 
+    opacity: 0.95;
+    font-weight: 600;
+    font-size: small;
+    visibility: visible;
+    padding: 10px;
+    color:#323e48;
+
+    
+
+
+   
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #323e48;
+    border-width: 1.3px;
+    
+
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+
+
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+
+}
+
+
+.containerbut{
+
+    display: block;
+    position: relative;
+
+    top: 6px;
+    left: 70px;
+
+    height: 90%;
+    width: 90%;
+
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+
+
+
+@media only screen 
+  and (max-device-width: 1024px)  {
+
+
+    .containerbut{
+
+      
+    
+        top: 6px;
+        left: 25px;
+    
+      
+    
+    
+    
+    }
+
+
+
+
+  }
+
+
+body {
+
+    overflow-x: hidden;
+}

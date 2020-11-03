@@ -104,9 +104,9 @@
 
 
              /* Remove code starts here*/
-             let d = document.getElementById("top-back-container");
-             let throwawayNode = d.removeChild(divArray[0]);
-             throwawayNode = null;
+            // let d = document.getElementById("top-back-container");
+             divArray[0].remove();
+            // throwawayNode = null;
             /* Remove code ends here*/
    
             divArray[0].style.left = "-"+ (window.screen.availWidth)+"px";;
