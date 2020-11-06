@@ -182,6 +182,7 @@ function theButton (buttonid) {
     
 
    }
+   
 
 
    if (counter2 == (imagesBigobj.images.length-1)){
