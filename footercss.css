@@ -1,0 +1,369 @@
+/*
+html {
+
+    font-family: Montserrat;
+
+
+}
+
+ comment/remove this before merging*/
+
+#big-foot-container{
+
+    display: block;
+    position: relative;
+    font-weight: 500;
+
+
+    
+    left: -2.5%;
+    right: 0px;
+
+    background-color: transparent;
+    color: #323e48;
+
+    min-height: 150px;
+    width: 105%;
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+    box-sizing: border-box;
+    padding: 12px 50px;
+}
+
+#affiliates-container{
+
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 28px;
+
+    
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#address-container{
+
+    width: 30%;
+    min-width: 200px;
+    margin-right: 9%;
+    background-color: transparent;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+
+    box-sizing: border-box;
+}
+
+
+#social-container{
+
+    width: 30%;
+    min-width: 200px;
+    margin-left: 9%;
+    
+    background-color: transparent;
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    box-sizing: border-box;
+}
+
+
+#affiliates-description{
+
+    width: 75%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+#affiliates-boxes-container{
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.affiliate-box{
+    display: block;
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1565482155/istanganika/v1jjhghnjbss0yteheg1/ibworld_1.png");
+    width: 96px;
+    height: 96px;
+
+    padding: 3px 12px;
+    margin: 6px 12px;
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+}
+
+
+.affiliate-box:first-child{
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_1/v1565482155/istanganika/v1jjhghnjbss0yteheg1/ibworld_1.png");
+  
+}
+
+
+.affiliate-box:nth-child(2){
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1565479567/istanganika/bfayk7iatvepqgbmwtjf/cis.png");
+  
+}
+
+.affiliate-box:nth-child(3){
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1565482214/istanganika/l4ix6gi7b9amnck89jdm/msa_1.png");
+  
+}
+
+.affiliate-box:nth-child(4){
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1565482231/istanganika/imux3h7yxxqekg2jjiqc/aisa_1.png");
+  
+}
+
+.affiliate-box:nth-child(5){
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1565482248/istanganika/mqexeswteeekjpur9khi/duke_2.png");
+  
+}
+
+
+
+.affiliate-box:nth-child(6){
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1565482265/istanganika/ntbusgdltemhxjrctgxx/childprotect_1.png");
+  
+}
+
+
+.affiliate-box:nth-child(7){
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1565482281/istanganika/dhokj75wrfy9fg4y9srw/nfi_1.png");
+  
+}
+
+
+.affiliate-box:last-child{
+
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1570187285/istanganika/elpesvgd06htcodfwksx/ptc2.png");
+  
+}
+
+
+#affiliates-childprotect{
+    width: 75%;
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+
+#affiliates-childprotect span{
+ font-weight: bold;
+ color: #1e4488;
+}
+
+
+
+
+
+
+.address-span{
+    display: block;
+
+    padding-bottom: 6px;
+}
+
+.address-span:first-child{
+ font-size: 18px;
+ font-weight: bolder;
+ letter-spacing: 1px;
+}
+
+
+
+
+
+
+.social-span{
+    display: block;
+
+    
+    width: 36px;
+    height: 36px;
+
+    padding: 3px 12px;
+    margin: 6px 12px;
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+}
+
+.social-span:first-child {
+
+    background-image: url("https://www.istafrica.com/uploaded/Elementary_Communications_Department/2020-21/secopenhouse1/faceb.png");
+}
+
+.social-span:nth-child(2){
+    
+
+    background-image: url("https://www.istafrica.com/uploaded/Elementary_Communications_Department/2020-21/secopenhouse1/twitt.png");
+  
+}
+
+
+.social-span:nth-child(3){
+    
+
+    background-image: url("https://www.istafrica.com/uploaded/Elementary_Communications_Department/2020-21/secopenhouse1/linkedin.png");
+  
+}
+
+
+.social-span:nth-child(4){
+    
+
+    background-image: url("https://www.istafrica.com/uploaded/Elementary_Communications_Department/2020-21/secopenhouse1/inst.png");
+  
+}
+
+
+.social-span:nth-child(5){
+    
+
+    background-image: url("https://www.istafrica.com/uploaded/Elementary_Communications_Department/2020-21/secopenhouse1/yout.png");
+  
+}
+
+.social-span:nth-child(6) {
+
+    width: 85%;
+    height: auto;
+}
+
+.social-span:nth-child(7) {
+    
+    height: auto;
+
+    width: 85%;
+
+    
+}
+
+.affiliate-box a {
+
+    display: block;
+    width: 96px;
+    height: 96px;
+}
+
+#big-foot-container a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.social-span a {
+
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+
+.social-span:nth-child(7) a {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+
+
+.social-span:hover, .affiliate-box:hover, .address-span:hover, #affiliates-childprotect span:hover {
+
+    background-color: #febd3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+  and (max-device-width: 600px)  {
+
+
+    #address-container{
+
+     
+        margin-right: 0px;
+        margin-bottom: 25px;
+        width: 75%;
+      
+        
+    
+
+    }
+    
+    
+    #social-container{
+    
+ 
+        margin-left: 0px;
+        width: 75%;
+       
+    }
+    
+
+
+  
+}
