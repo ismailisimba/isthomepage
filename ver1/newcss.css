@@ -1,0 +1,796 @@
+#boxonetwo{ 
+    display:block;
+    position:relative;
+   
+    width: 400%;
+    left: 0px;
+     height: 100%;
+       min-height:600px;
+    margin-top: -40px;
+    background-color: transparent;
+    box-sizing: border-box;
+
+}
+    
+    
+    #boxtwoone{ 
+
+        background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/19.jpg");
+        background-size: 25%;
+        background-position: left;
+        background-repeat: no-repeat;
+    display:block;
+      position: relative;
+    width:100%;
+    height: 100%;
+      min-height: 600px;
+    background-color: transparent;
+    box-sizing: border-box;
+  
+}
+    
+    .top-big-back {
+  
+      display: block;
+          position: absolute;
+          top: 0px;
+      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  
+      height: 600px;
+      width: 25%;
+      
+      margin: 0;
+  
+      box-sizing: border-box;
+  
+      transition: all;
+  
+      -webkit-transition-duration: 5.6942s;
+      -moz-transition-duration: 5.6942s;
+      -o-transition-duration: 5.6942s;
+      transition-duration: 5.6942s;
+  
+  
+      -webkit-transition-timing-function: ease-in-out;
+      -moz-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
+  
+  }
+    
+
+    .top-big-back:first-child {
+      left:-100%;
+      top: 0px;
+      background-color: transparent;
+    }
+    
+    .top-big-back:nth-child(2) {
+      left: -20px;
+      top: 0px;
+      background-color: transparent;
+    }
+    .top-big-back:nth-child(3) {
+      left: 100%;
+      top: 0px;
+      background-color: transparent;
+    }
+    
+    
+    .top-big-back:last-child {
+      left: 200%;
+      top: 0px;
+      background-color: transparent;
+    }
+
+    #welcome-to-div {
+        display: block;
+        position: relative;
+        left: 0px;
+        top:0px;
+        
+
+        font-size: xx-large;
+        text-align: center;
+        color: #1e4488;
+        font-weight: 600;
+        padding-top: 30px;
+    
+    
+        box-sizing: border-box;
+        
+    
+    }
+
+    #education-div, #learning-div-top, #become-twiga-top{
+
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+    
+        flex: content;
+    
+        justify-content: space-evenly;
+        align-self: center;
+        text-align: center;
+    
+        width: 100%;
+    
+        min-height: 200px;
+        height: auto;
+    
+    }
+
+    #education-div-title, #learning-div-title, #become-twiga-title, #explore-div-title {
+
+        font-size: x-large;
+        color: #febd3d;
+        font-weight: 400;
+
+        padding-top: 30px;
+        text-align: center;
+    
+    
+        box-sizing: border-box;
+        font-weight: 600;
+    
+    }
+
+    #education-div-details {
+
+        font-size: larger;
+        color: #323e48;
+        font-weight: 300;
+        line-height: 30px;
+    
+        padding-top: 15px;
+        text-align: center;
+    
+    
+    
+        box-sizing: border-box;
+    
+    }
+
+    #challengesup-div, #learning-div-bottom  {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+        justify-content: space-around;
+    
+        width: 100%;
+    
+        align-items: center;
+    
+        padding-top: 30px;
+
+
+      
+    
+        flex: content;
+    
+      
+    
+      
+    
+        min-height: 200px;
+        height: auto;
+        
+    
+    
+    
+    }
+
+
+    .edu-items, .learn-items {
+        width: 30%;
+        min-width: 250px;
+        min-height: fit-content;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 16px;
+        padding-bottom: 18px;
+        text-align: center;
+    
+        line-height: normal;
+        box-sizing: border-box;
+    }
+
+    .learn-items a {
+        text-decoration: none;
+
+        color: #1e4488;
+
+        width: 30%;
+        min-width: 250px;
+        min-height: 150px;
+    }
+
+
+    
+
+    
+.edu-items img {
+    width: 10%;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+.edu-items-text{
+    color: #1e4488;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.edu-items  {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+  
+
+ 
+    font-weight: 700;
+}
+
+
+#challenge-main {
+    color: #1e4488;
+
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+#support-main {
+    color: #febd3d;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+#inspire-main {
+    color: #76bc43;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.main-vision-text {
+
+    font-size: medium;
+}
+
+
+
+#challenge-image {
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1590526906/istanganika/cav6rf4ufyjixtvkesf3/challenge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#support-image {
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1590526930/istanganika/b2fgiqkqfymqqnkdgn14/support.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#inspire-image {
+    background-image: url("https://resources.finalsite.net/images/f_auto,q_auto/v1590526918/istanganika/dbuk0nxl828kungxkxs8/inspire.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#pyp-logo {
+    background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/icons/pyp-programme-logo-en.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#myp-logo {
+    background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/icons/myp-programme-logo-en.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#dp-logo {
+    background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/icons/dp-programme-logo-en.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+#learning-div-bottom {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    width: 95%;
+
+    align-self: center;
+
+}
+
+
+
+.learn-items {
+
+    width: 30%;
+    min-width: 350px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    line-height: normal;
+    box-sizing: border-box;
+}
+
+.learn-items img {
+
+    width: 250px;
+    height: 100px;    
+}
+
+
+.edu-items .main-vision, #learning-div-bottom .learning-vision {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  
+
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.learning-vision {
+  color: #1e4488;
+
+}
+
+
+#highlighted-story-div {
+    background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 600px;
+    width: 100%;
+
+
+    box-sizing: border-box;
+
+    display: block;
+    display: flex;
+
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+#highlighted-story-button {
+
+    position: relative;
+    top: 200px;
+
+    font-size: xx-large;
+    color: #1e4488;
+    background-color: #76bc43;
+    font-weight: 600;
+
+
+
+    width: fit-content;
+    max-width: 300px;
+    align-self: center;
+
+    padding: 15px 10px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    box-shadow: 0.5px 1px 3px 0.2px #323e48;
+
+    box-sizing: border-box;
+
+
+}
+#highlighted-story-button a, .become-twiga-buttons a {
+
+    display: block;
+
+    text-decoration: none;
+    color: #1e4488;
+
+    width: 100%;
+    height: 100%;
+   
+    box-sizing: border-box;
+}
+
+
+.become-twiga-buttons:hover, #highlighted-story-button:hover {
+
+
+    box-shadow: none;
+    background-color: #febd3d;
+    
+  
+ 
+
+}
+
+
+
+
+#become-twiga-details {
+
+    font-size: larger;
+    color: #323e48;
+    font-weight: 300;
+    line-height: 30px;
+
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+
+
+
+    box-sizing: border-box;
+
+}
+
+
+#become-twiga-bottom  {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    width: 95%;
+
+    align-self: center;
+
+
+    box-sizing: border-box;
+    margin-bottom: 24px;
+
+
+}
+
+
+.become-twiga-buttons {
+
+    width: 20%;
+    min-height: fit-content;
+    min-width: 250px;
+
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 10px 5px;
+
+    box-shadow: 0.5px 1px 3px 0.2px #1e4488;
+    
+  
+  text-align: center;
+
+    line-height: normal;
+    box-sizing: border-box;
+
+    font-size: x-large;
+    font-weight: 500;
+
+    border-radius: 3px;
+
+    background-color: #76bc43;
+    color: white;
+}
+
+
+#explore-div-details, #learning-div-details  {
+
+    font-size: large;
+    color: #323e48;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 18px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+
+}
+
+
+
+#mycustomfooter {
+
+
+    display: block;
+    position: relative;
+    margin-top: 25px;
+    min-height: 400px;
+    width: 100%;
+    background-color: #76bc43;
+
+
+}
+
+
+#footer-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    
+    
+  
+    width: 100%;
+
+    transition: all;
+
+    -webkit-transition-duration: 1.4s;
+    -moz-transition-duration: 1.4s;
+    -o-transition-duration: 1.4s;
+    transition-duration: 1.4s;
+
+
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    
+}
+
+
+
+#footer-left {
+    background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 600px;
+    width: 50%;
+    margin: 0;
+
+    display: block;
+    position: relative;
+
+    top : 0px;
+    left: 0px;
+
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+
+
+
+}
+
+#footer-right {
+    background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 600px;
+    width: 50%;
+    
+
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+
+
+    display: block;
+    position: relative;
+
+    top : 0px;
+    left: 0px;
+
+ 
+
+}
+
+
+.footer-buttons {
+    
+
+    
+    min-width: 69px;
+    
+    
+    height: fit-content;
+    border-radius: 3px;
+    background-color: #76bc43;
+    text-align: center;
+
+   
+    box-shadow: 0.5px 1px 3px 0.2px #323e48;
+    
+
+}
+
+
+
+
+
+#button-right-top1, #button-right-top2 {
+
+    
+
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 20px;
+    color:#1e4488;
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+.containerbut{
+
+    display: block;
+    position: relative;
+
+    top: 6px;
+    left: 70px;
+
+    height: 90%;
+    width: 90%;
+
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+
+}
+
+
+
+
+@media only screen 
+  and (max-device-width: 1024px)  {
+
+
+    .containerbut{
+
+      
+    
+        top: 6px;
+        left: 25px;
+    
+      
+    
+    
+    
+    }
+
+    #boxtwoone{ 
+
+        background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/19.jpg");
+        background-size: cover;
+        background-position: center;
+  
+    }
+
+    #highlighted-story-div {
+        background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/2.jpg");
+ 
+    
+    
+    }
+
+
+    #footer-left {
+        background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        min-height: 600px;
+        width: 50%;
+        margin: 0;
+    
+        display: block;
+        position: relative;
+    
+        top : 0px;
+        left: 0px;
+    
+        box-sizing: border-box;
+    
+        overflow-x: hidden;
+    
+    
+    
+    }
+    
+    #footer-right {
+        background-image: url("https://www.istafrica.com/uploaded/home_photos_2021/long/5.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        min-height: 600px;
+        width: 50%;
+        
+    
+        box-sizing: border-box;
+    
+        overflow-x: hidden;
+    
+    
+        display: block;
+        position: relative;
+    
+        top : 0px;
+        left: 0px;
+    
+     
+    
+    }
+
+
+    
+.footer-buttons {
+    
+
+  font-size: 14px;
+  font-weight: bold;
+    
+
+}
+
+.learn-items {
+    width: 100%;
+}
+
+
+
+
+  }
+
+
+body {
+
+    overflow-x: hidden;
+}

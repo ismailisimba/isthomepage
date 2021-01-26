@@ -45,6 +45,8 @@ let counter2 = 0;
 var width = window.screen.width;
 
 
+setMyWidths(width);
+
 
 function checkWidth (width) {
 
@@ -75,17 +77,15 @@ function animateBackground () {
         
 
 
-         if (width<=1024){
+        
 
-          divArray[1].style.left ="-100%";
+          divArray[1].style.left = `-${width}px`;
           divArray[2].style.left ="0px";
 
-         }else{
+        
 
-          divArray[1].style.left ="-90%";
-         divArray[2].style.left ="0px";
+        
 
-         }
 
 
            /* Add code starts here */
@@ -94,17 +94,14 @@ function animateBackground () {
            sp1.style.backgroundImage = `url(${imagesBigobj.images[counter]})`;
 
 
-           if (width<=1024){
+           
 
-            sp1.style.width = "103%";
-           sp1.style.left ="100%";
+            sp1.style.width = `${width}px`;
+            sp1.style.left =`${width}px`;
 
-           }else{
+          
 
-            sp1.style.width = "90%";
-           sp1.style.left ="90%";
-
-           }
+            
          
          
            
@@ -195,3 +192,35 @@ function theButton (buttonid) {
 
     document.getElementById("footer-container").addEventListener("click", function () {theButton(this.id)});
     
+
+
+function setMyWidths(width) {
+
+  document.getElementById("boxtwoone").style.width = `${width*4}px`;
+  document.getElementById("boxonetwo").style.width = `${width*4}px`;
+  var myContainers = document.querySelectorAll(".top-big-back");
+
+  myContainers[0].style.width = `${width}px`;
+  myContainers[1].style.width = `${width}px`;
+  myContainers[2].style.width = `${width}px`;
+  myContainers[3].style.width = `${width}px`;
+
+
+  myContainers[0].style.left = `-${width}px`;
+  myContainers[1].style.left = `0px`;
+  myContainers[2].style.left = `${width}px`;
+  myContainers[3].style.left = `${width*2}px`;
+
+}
+
+function calculateLeftVal (){
+
+  let myBiggestCont = document.getElementById("boxonetwo").parentNode;
+  let compStyles = window.getComputedStyle(myBiggestCont);
+  let thisDivsWidth = compStyles.getPropertyValue('max-width');
+
+ // document.body.innerHTML = thisDivsWidth;
+}
+
+
+calculateLeftVal ();
