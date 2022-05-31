@@ -320,9 +320,15 @@
   },
 
   smallifyImages: function () {
+    var specialcheck = null;
+    specialcheck = document.querySelectorAll(".specialcheck")[0];
+    var specialwidth = null;
+    specialwidth = window.getComputedStyle(specialcheck).getPropertyValue(width);
 
     if( width <= 1024){
       imagesBig = imagesSmall;
+    } else if(specialwidth){
+        console.log(specialwidth);
     };
   }
 
