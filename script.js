@@ -321,7 +321,7 @@
 
   smallifyImages: function () {
     var specialcheck = null;
-    specialcheck = document.querySelectorAll(".specialcheck")[0];
+    specialcheck = document.querySelectorAll("html")[0].parentNode;
     var specialwidth = null;
     specialwidth = window.getComputedStyle(specialcheck).getPropertyValue(width);
 
